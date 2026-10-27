@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 UniCampus — Student ERP System
 
 A full-stack **MERN** Student Enterprise Resource Planning system built as a Final Year Computer Science project.
@@ -279,3 +280,7 @@ Student, Subject, Attendance, Timetable, Result, ExamSchedule, Library, LeaveApp
 ---
 
 *Built with ❤️ as a Final Year Computer Science Project*
+=======
+# uniCampus
+University Campus Management System
+>>>>>>> ac5ab0849230e63acdb2d8a5c3c6fe21b78ef0ab
