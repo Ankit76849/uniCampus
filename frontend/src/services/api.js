@@ -85,9 +85,24 @@ export const resourcesAPI = {
 };
 
 export const documentsAPI = {
-  get: () => API.get('/documents'),
-  upload: (data) => API.post('/documents', data),
-  delete: (docId) => API.delete(`/documents/${docId}`),
+
+  get: () =>
+    api.get('/documents'),
+
+  upload: (data) =>
+    api.post(
+      '/documents',
+      data,
+      {
+        headers: {
+          'Content-Type':
+            'multipart/form-data'
+        }
+      }
+    ),
+
+  delete: (docId) =>
+    api.delete(`/documents/${docId}`)
 };
 
 export const inboxAPI = {
